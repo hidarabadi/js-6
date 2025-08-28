@@ -8,6 +8,9 @@
     --font-serif: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-pink-200: oklch(89.9% 0.061 343.231);
+    --color-pink-300: oklch(82.3% 0.12 346.018);
+    --color-pink-400: oklch(71.8% 0.202 349.761);
     --color-pink-500: oklch(65.6% 0.241 354.308);
     --color-pink-700: oklch(52.5% 0.223 3.958);
     --color-white: #fff;
@@ -166,6 +169,9 @@
   }
 }
 @layer utilities {
+  .block {
+    display: block;
+  }
   .flex {
     display: flex;
   }
@@ -218,6 +224,21 @@
   }
   .bg-\[\#B6C9F0\] {
     background-color: #B6C9F0;
+  }
+  .bg-\[\#\] {
+    background-color: #;
+  }
+  .bg-\[\#ffffff\] {
+    background-color: #ffffff;
+  }
+  .bg-pink-200 {
+    background-color: var(--color-pink-200);
+  }
+  .bg-pink-300 {
+    background-color: var(--color-pink-300);
+  }
+  .bg-pink-400 {
+    background-color: var(--color-pink-400);
   }
   .bg-pink-500 {
     background-color: var(--color-pink-500);
